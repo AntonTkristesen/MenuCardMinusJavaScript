@@ -8,10 +8,10 @@ $dishes = getAllDishes();
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"><<
     <title>Restaurant Menu Manager</title>
+    <script src="main.js" defer></script>
     <style>
-/* === Layout og generelt === */
 body {
     font-family: 'Segoe UI', sans-serif;
     background-color: #f4f6f8;
@@ -27,7 +27,6 @@ h2 {
     color: #222;
 }
 
-/* === Add/Edit knap === */
 summary {
     display: inline-block;
     padding: 10px 20px;
